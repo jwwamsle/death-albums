@@ -1,0 +1,123 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    background: radial-gradient(circle at center, #1a1a1a 0%, #111 100%);
+    color: #f5f5f5;
+    line-height: 1.5;
+}
+
+header {
+    text-align: center;
+    padding: 2em;
+    background: #000000;
+    border-bottom: 2px solid #444;
+}
+
+header h1 {
+    margin-bottom: 0.5em;
+    font-size: 2em;
+    color: #f5f5f5;
+    letter-spacing: 1px;
+}
+
+header p {
+    color: #cccccc;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.intro {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1.5em;
+    background: #222;
+    border-radius: 10px;
+    border: 1px solid #333;
+    box-shadow: 0 0 15px #000;
+}
+
+.intro h2 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+section.album {
+    padding: 2em;
+    margin: 1em auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #000;
+    border: 1px solid #333;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.8); /* Added semi-transparent background for better text readability */
+}
+
+section.album:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 25px #000;
+}
+
+.album h2 {
+    margin-top: 0;
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.album p {
+    margin-bottom: 1em;
+    color: #dddddd;
+}
+
+.album-cover {
+    max-width: 200px;
+    display: block;
+    margin-bottom: 1em;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000;
+}
+
+/* Color Themes for Each Album */
+.spiritual-healing {
+    background: linear-gradient(to bottom, #446b91, #2c4961);
+}
+
+.scream-bloody-gore {
+    background: linear-gradient(to bottom, #6b0000, #300000);
+}
+
+.leprosy {
+    background: linear-gradient(to bottom, #c68686, #9f6e6e);
+}
+
+/* Updated theme for Individual Thought Patterns (darker beige tones) */
+.itp {
+    background: linear-gradient(to bottom, #a68864, #8d7654);
+}
+
+.human {
+    background: linear-gradient(to bottom, #2e6161, #1d3e3e);
+}
+
+.tsop {
+    background: linear-gradient(to bottom, #7d1a1a, #4a0f0f);
+}
+
+.symbolic {
+    background: linear-gradient(to bottom, #b8a26b, #8c7a4e);
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    color: #888;
+    background: #000000;
+    border-top: 2px solid #444;
+    font-size: 0.9em;
+}
